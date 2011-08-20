@@ -1,0 +1,45 @@
+<?php
+
+require_once 'lib/class.db.php';
+/**
+ * DB Type
+ * Possible values: mysql, sqlite
+ */
+$config_db_type = 'sqlite';
+
+/**
+ * Location of database
+ *
+ * sqlite: path to actual file
+ * mysql: host and port of database
+ *
+ */
+$config_db_location = 'C:\event_admit.sqlite';
+
+/**
+ * Name of database
+ *
+ * mysql: name of database
+ * sqlite: not used
+ */
+$config_db_name = "";
+
+/**
+ * Name of database user
+ *
+ * mysql: name of database user
+ * sqlite: not used
+ */
+$config_db_user = "";
+
+/**
+ * Database Password
+ *
+ * mysql: database password
+ * sqlite: not used
+ */
+$config_db_password = "";
+
+
+
+?>
